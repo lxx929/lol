@@ -8,7 +8,7 @@ gulp.task('scss', function() {
 });
 
 gulp.task('watch', function() {
-    return gulp.src('./src/scss/*.scss', gulp.series('scss'));
+    return gulp.watch('./src/scss/*.scss', gulp.series('scss'));
 });
 
 
